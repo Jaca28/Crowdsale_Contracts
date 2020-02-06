@@ -1,21 +1,21 @@
 pragma solidity ^0.4.18;
 
 
-import './bancor/LimitedTransferBancorSmartToken.sol';
+import 'LimitedTransferBancorSmartToken.sol';
 
 
 /**
   A Token which is 'Bancor' compatible and can mint new tokens and pause token-transfer functionality
 */
-contract SirinSmartToken is LimitedTransferBancorSmartToken {
+contract AlviaSmartToken is LimitedTransferBancorSmartToken {
 
     // =================================================================================================================
     //                                         Members
     // =================================================================================================================
 
-    string public name = "SIRIN";
+    string public name = "ALVIA";
 
-    string public symbol = "SRN";
+    string public symbol = "ALV";
 
     uint8 public decimals = 18;
 
@@ -23,7 +23,7 @@ contract SirinSmartToken is LimitedTransferBancorSmartToken {
     //                                         Constructor
     // =================================================================================================================
 
-    function SirinSmartToken() public {
+    function AlviaSmartToken() public {
         //Apart of 'Bancor' computability - triggered when a smart token is deployed
         NewSmartToken(address(this));
     }

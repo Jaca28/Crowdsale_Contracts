@@ -1,8 +1,8 @@
 pragma solidity ^0.4.18;
 
 
-import './StandardToken.sol';
-import '../ownership/Claimable.sol';
+import 'StandardToken.sol';
+import 'Claimable.sol';
 
 
 /**
