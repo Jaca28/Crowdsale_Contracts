@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 
-import 'Ownable.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/Ownable.sol';
 
 
 /**

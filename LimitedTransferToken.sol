@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-import "ERC20.sol";
+import "https://github.com/Jaca28/crowdsale_contracts/blob/master/ERC20.sol";
 
 /**
  * @title LimitedTransferToken

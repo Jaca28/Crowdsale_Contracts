@@ -1,9 +1,9 @@
 pragma solidity ^0.4.18;
 
 
-import 'MintableToken.sol';
-import 'SafeMath.sol';
-import 'AlviaSmartToken.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/MintableToken.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/SafeMath.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/AlviaSmartToken.sol.sol';
 
 /**
  * @title Crowdsale

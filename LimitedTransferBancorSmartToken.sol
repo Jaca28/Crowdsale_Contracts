@@ -1,8 +1,8 @@
 pragma solidity ^0.4.18;
 
-import 'MintableToken.sol';
-import 'LimitedTransferToken.sol';
-import 'ISmartToken.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/MintableToken.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/LimitedTransferToken.sol';
+import 'https://github.com/Jaca28/crowdsale_contracts/blob/master/ISmartToken.sol';
 
 /**
     BancorSmartToken
